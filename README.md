@@ -9,7 +9,7 @@
 使用 `Microsoft Visual Studio` 创建项目，在项目中创建本项目的源代码。直接运行会出现 `C4996` 报错，点击 `项目` -> `属性` -> `配置属性` -> `C++` -> `预处理器` -> `预处理器定义`，填入以下内容即可解决：
 
 ```text
-_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
+_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;
 ```
 
 ## 程序的逻辑实现
