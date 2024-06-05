@@ -15,14 +15,16 @@ _CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)
 ## 程序的逻辑实现
 
 * front < rear
-![front < rear](./img/队头在队尾前面.png)
+
+![front < rear](./img/case1.png)
 
 * front >= rear
-![front >= rear](./img/队头在队尾后面.png)
+  
+![front >= rear](./img/case2.png)
 
 ## 总体设计
 
-![总体设计](./img/总体设计.png)
+![总体设计](./img/design.png)
 
 ## 程序的关键部分
 
@@ -75,13 +77,13 @@ void resizeQueue(Queue& Q, double percent) {
 
 ## 程序使用
 
-![创建队列](./img/创建队列.png)
+![创建队列](./img/create.png)
 
-![入队](./img/入队.png)
+![入队](./img/push.png)
 
-![模拟](./img/模拟.png)
+![模拟](./img/test.png)
 
-![出队](./img/出队.png)
+![出队](./img/dequeue.png)
 
 ## 备注
 
